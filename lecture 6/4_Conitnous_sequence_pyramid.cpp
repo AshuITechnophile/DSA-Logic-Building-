@@ -4,18 +4,17 @@ int main()
 {
     int n;
     cin >> n;
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - 1; j++)
+        for (int j = 1; j <= n - i; j++)
         {
             cout << "  ";
         }
-        for (int k = i; k <= i; k++)
+        for (int k = i; k <= 2 * i - 1; k++)
         {
             cout << k << " ";
         }
-        int l = i;
-        for (int k = l + (i / 2); k <= i - 1; k++)
+        for (int k = 2 * i - 2; k >= i; k--)
         {
             cout << k << " ";
         }
