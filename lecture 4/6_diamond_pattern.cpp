@@ -11,17 +11,17 @@ int main()
         // outer spaces
         for (int j = 1; j <= m - i + 1; j++)
         {
-            cout << " ";
+            cout << "   ";
         }
-        cout << "*";
+        cout << "* ";
         if (i > 1)
         {
             // inner spaces
             for (int j = 1; j <= 2 * i - 3; j++)
             {
-                cout << " ";
+                cout << "   ";
             }
-            cout << "*";
+            cout << "* ";
         }
         cout << endl;
     }
@@ -31,17 +31,17 @@ int main()
         // outer spaces
         for (int j = 1; j <= m - i + 1; j++)
         {
-            cout << " ";
+            cout << "   ";
         }
-        cout << "*";
+        cout << "* ";
         if (i > 1)
         {
             // inner spaces
             for (int j = 1; j <= 2 * i - 3; j++)
             {
-                cout << " ";
+                cout << "   ";
             }
-            cout << "*";
+            cout << "* ";
         }
         cout << endl;
     }
